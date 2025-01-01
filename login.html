@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body class="w-full h-screen bg-[#D1D8F2] flex justify-center items-center">
+    <div class="bg-[#FEFEFE] w-3/5 h-1/2 flex items-center shadow-md rounded-3xl 2xl:w-[70%] xl:w-[75%] lg:w-[90%] md:flex-col md:h-auto md:w-[90%] md:my-10 sm:flex-col sm:h-auto sm:w-[98%] sm:my-10 mb:flex-col mb:h-auto mb:w-[98%] mb:my-10 maxd:flex-col maxd:h-auto maxd:w-[98%] maxd:my-10">
+        <div id="container" class="w-[60%] h-full p-10 flex flex-col items-center justify-center gap-4 ">
+            <h2 class="text-[2.8rem] text-black font-semibold mb:text-[2.3rem]">Sign In</h2>
+            <form class="flex flex-wrap items-center justify-center gap-6">
+                <input type="email" name="" id="email" placeholder="Email" class="bg-[#ECECEC] py-2 rounded-lg w-[30.5rem] px-2 mb:w-[20rem] maxd:w-[20rem]"/>
+                <input type="password" name="" id="password" placeholder="Password" class="bg-[#ECECEC] py-2 rounded-lg w-[30.5rem] px-2 mb:w-[20rem] maxd:w-[20rem]"/>
+                <button id="signIn" class="font-semibold rounded-lg py-[0.3rem] px-[3rem] uppercase bg-[#4B20A5] text-white">Sign In</button>
+            </form>
+        </div>
+        <div class="bg-gradient-to-r from-[#5B63B4] w-[40%] to-[#574DAE] h-full rounded-l-[120px] rounded-r-3xl p-10 flex flex-col items-center justify-center gap-6 text-white md:w-full md:rounded-b-3xl md:rounded-t-[120px] sm:w-full sm:rounded-b-3xl sm:rounded-t-[120px] mb:w-full mb:rounded-b-3xl mb:rounded-t-[120px] maxd:w-full maxd:rounded-b-3xl maxd:rounded-t-[120px]">
+            <h2 class="text-[3.2rem] font-bold mb:text-[2.8rem]">Hello Friend!</h2>
+            <p class="text-[1.2rem] text-wrap text-center">Register with your personal details to use all of site feautres</p>
+            <button class="border-2 font-semibold rounded-lg py-[0.3rem] px-[3rem] uppercase"><a href="./index.html">Sign Up</a></button>
+        </div>
+    </div>
+    <script type="module" src="./firebaseConfig.js"></script>
+</body>
+
+</html>
